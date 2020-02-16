@@ -1,0 +1,17 @@
+name: iterm2
+version: 0.1.0
+
+description: |
+  Display images within the terminal using the ITerm2 Inline Images
+  Protocol (https://iterm2.com/documentation-images.html).
+
+authors:
+  - Todd Sundsted
+
+development_dependencies:
+  spectator:
+    gitlab: arctic-fox/spectator
+
+crystal: 0.33.0
+
+license: Apache License, Version 2.0
