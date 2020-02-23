@@ -61,6 +61,12 @@ Spectator.describe Iterm2 do
         match = output.rewind.read_line.match(CMD_RE).not_nil!
         expect(match[1].split(";")).not_to have("inline=1")
       end
+
+      it "accepts a block, yields an IO" do
+        subject.display do |io|
+          expect(io).to be_a(IO)
+        end
+      end
     end
   end
 end
