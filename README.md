@@ -31,6 +31,9 @@ File.open("unicorn.png") do |file|
 end
 ```
 
+The `#display` method also accepts a block and yields an instance of
+`IO` that may be written to. See the documentation for the full API.
+
 ## Contributors
 
 - [Todd Sundsted](https://github.com/toddsundsted) - creator and maintainer
