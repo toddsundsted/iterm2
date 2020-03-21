@@ -2,6 +2,7 @@
 # Protocol](https://iterm2.com/documentation-images.html).
 #
 class Iterm2
+  # :nodoc:
   VERSION = {{ `shards version "#{__DIR__}"`.chomp.stringify }}
 
   # Creates a new instance.
