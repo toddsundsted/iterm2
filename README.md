@@ -1,7 +1,7 @@
 # iterm2
 
 [![GitHub Release](https://img.shields.io/github/release/toddsundsted/iterm2.svg)](https://github.com/toddsundsted/iterm2/releases)
-[![Build Status](https://travis-ci.org/toddsundsted/iterm2.svg?branch=main)](https://travis-ci.org/toddsundsted/iterm2)
+[![Build Status](https://github.com/toddsundsted/iterm2/actions/workflows/ci.yml/badge.svg)](https://github.com/toddsundsted/iterm2/actions)
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://toddsundsted.github.io/iterm2/)
 
 Displays images within the terminal using the ITerm2 [Inline Images
